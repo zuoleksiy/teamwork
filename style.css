@@ -1,1 +1,32 @@
-css
+.footer{
+	width: 100%;
+	height: 300px;
+	background: lightblue;
+	border-bottom-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	animation-name: color;
+	animation-duration: 120s;
+}
+.h1-nednik{
+	text-align: center;
+	color: #fff;
+}
+/*.footer:hover{
+	background: lightgreen;
+
+}*/
+@keyframes color{
+	25%{
+		background: pink;
+	}
+	50%{
+		background: lightgreen;
+
+	}
+	75%{
+		background: #66ffcc;
+	}
+	100%{
+		background: lightblue;
+	}
+}
